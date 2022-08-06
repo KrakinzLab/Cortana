@@ -1,6 +1,6 @@
 ### Cortana Multidevice 
 
-## Termux iinstallation
+## Termux iinstallation / Ubuntu
 > pkg install
 
 > pkg upgrade
@@ -19,10 +19,10 @@
 
 >npm start
 
-# Scan Qr
+## Scan Qr
 
 # Note
 
 Remember to delete cortana-md.json file before running npm start command!
 
-### ? Krakinzlab ?2022 Inc
+### Krakinzlab ©2022 Inc 🦀
