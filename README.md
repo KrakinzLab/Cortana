@@ -22,9 +22,9 @@
 
 > pkg install nodejs
 
-> git clone --depth=1 https://github.com/krakinzlab/cortana.git
+> git clone --depth=1 https://github.com/krakinzlab/Cortana.git
 
-> cd Help
+> cd Cortana 
 
 > npm install --arch=x64 --platform=linux sharp
 
