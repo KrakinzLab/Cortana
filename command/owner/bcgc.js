@@ -5,7 +5,7 @@ module.exports = {
 	use: "<text>",
 	category: "private",
 	isOwner: true,
-	query: "Where is the text for bc",
+	query: "Where is the text to be broadcasted",
 	async run({ msg, conn }, { q }) {
 		let getGroups = await conn.groupFetchAllParticipating();
 		let groups = Object.entries(getGroups)
@@ -14,8 +14,8 @@ module.exports = {
 		let anu = groups.map((v) => v.id);
 		for (let i of anu) {
 			await require("delay")(3000);
-			await conn.sendMessage(i, { text: q + "\n\n*Dreaded Bot*" });
+			await conn.sendMessage(i, { text: q + "\n\n*「 Cortana MD 」*" });
 		}
-		await msg.reply("Success");
+		await msg.reply("Cortana Broadcasted Successfully");
 	},
 };
