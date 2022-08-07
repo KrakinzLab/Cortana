@@ -1,5 +1,5 @@
 # Gausah hapus creator dek najis huek cuih
-name: Prettier By RzkyFdlh
+name: Prettier By krakinzlab
 on:
   push:
     branches: [ main ]
